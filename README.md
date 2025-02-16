@@ -14,10 +14,11 @@ Before running the script, ensure you have **Python 3.x** installed along with t
 
 ```bash
 pip install numpy matplotlib
-
+```
 
 ## 📜 Usage
 Run the script using:
 
 ```bash
 python checkerboard.py
+```
