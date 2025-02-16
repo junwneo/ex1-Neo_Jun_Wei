@@ -21,6 +21,10 @@ checkerboard = generate_checkerboard()
 plt.figure(figsize=(6,6))
 plt.imshow(checkerboard, cmap="tab10", interpolation="nearest")
 plt.axis("off")
+<<<<<<< HEAD
 plt.title("Checkerboard Visualization")
+=======
+plt.title("Black and White Checkerboard")
+>>>>>>> 366d992 (Changed title to 'Black and White Checkerboard')
 
 plt.show()
