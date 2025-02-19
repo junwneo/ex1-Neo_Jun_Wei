@@ -18,7 +18,7 @@ def generate_checkerboard(size=64, num_squares=8):
 checkerboard = generate_checkerboard()
 
 ### Plot checkerboard
-plt.figure(figsize=(7,7))
+plt.figure(figsize=(8,8))
 plt.imshow(checkerboard, cmap="tab10", interpolation="nearest")
 plt.axis("off")
 plt.title("Checkerboard Visualization")
